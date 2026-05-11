@@ -30,9 +30,9 @@ The analysis is based on `uber-data (8).csv`, which contains details such as req
 -Evening Peak (around 5 PM to 10 PM): Requests from the Airport prominently show a high number of 'No Cars Available' during these hours. This leading to a large number of passengers being stranded or having long wait times. This is likely due to drivers not wanting to make a trip from the city in the morning towards airport, and then return empty.
 
 ## Recommended solutions
--Give extra bonuses for airport rides.
--Company can collaborate with airports for pre-booked rides.
--The app can group passengers going in the same direction.
+1. Give extra bonuses for airport rides.
+2. Company can collaborate with airports for pre-booked rides.
+3. The app can group passengers going in the same direction.
 
 ## Technologies Used
 -   Python
