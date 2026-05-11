@@ -16,9 +16,23 @@ The analysis is based on `uber-data (8).csv`, which contains details such as req
 7.  **Hourly Status Distribution**: Detailed analysis of trip status distribution by hour for both overall data and separately for 'City' and 'Airport' pickups.
 
 ## Key Findings
--   Identified peak demand hours and corresponding supply challenges (cancellations or no cars available).
--   Revealed differences in demand-supply dynamics between City and Airport pickup locations.
--   Visualizations clearly show time slots where demand significantly outstrips supply, or where cancellations are high.
+1. Overall Trip Status Distribution by Hour of Day:
+
+-Morning Rush (around 5 AM to 9 AM): There's a significant peak in 'Cancelled' requests, especially from 6 AM to 9 AM. This suggests high demand during these hours, but also a large number of cancellations, possibly due to drivers canceling or high surge pricing.
+-Evening Peak (around 5 PM to 9 PM): The 'No Cars Available' segment sees a substantial increase during these hours. This indicates that while there is high demand, there aren't enough drivers to meet it, leading to many requests going unfulfilled.
+
+2. Trip Status Distribution by Hour of Day for City Pickup:
+
+-Morning Rush (around 5 AM to 9 AM): Requests originating from the City show a very high proportion of 'Cancelled' trips during these hours. This suggests that city drivers might be less willing to take rides towards the airport, or that demand within the city itself during peak hours is hard to meet.
+
+3. Trip Status Distribution by Hour of Day for Airport Pickup:
+
+-Evening Peak (around 5 PM to 10 PM): Requests from the Airport prominently show a high number of 'No Cars Available' during these hours. This leading to a large number of passengers being stranded or having long wait times. This is likely due to drivers not wanting to make a trip from the city in the morning towards airport, and then return empty.
+
+## Recommended solutions
+-Give extra bonuses for airport rides.
+-Company can collaborate with airports for pre-booked rides.
+-The app can group passengers going in the same direction.
 
 ## Technologies Used
 -   Python
